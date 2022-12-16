@@ -1,0 +1,181 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #343a40;
+}
+.bg-grey {
+  background: #f7f7f7;
+}
+.bg-red {
+  background: green;
+}
+section > .container {
+  width: 100%;
+  margin: auto;
+}
+
+/* Banner */
+#banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url("images/banner.jpg");
+  height: 65vh;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+}
+.banner-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+.banner-title > h1 {
+  font-size: 45px;
+  font-weight: 400;
+  margin-bottom: 3px;
+}
+/* Narbar */
+#nav-bar {
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+.nav {
+  justify-content: center;
+}
+.avata {
+  display: block;
+  width: 140px;
+  height: 155px;
+  border: 1px solid #adb5bd;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background-color: white;
+}
+.nav-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+nav ul li:nth-child(odd) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+nav ul li:nth-child(3) {
+  padding: 0;
+}
+.icon-nav {
+  color: #199cdb;
+}
+/* ABOUT */
+#about > .container {
+  line-height: 1.5;
+}
+#target {
+  padding-top: 50px;
+  flex: 50%;
+}
+#personal-info {
+  padding-top: 50px;
+  background-color: #f1f3f5;
+  flex: 50%;
+}
+#personal-info ul li {
+  list-style-type: none;
+}
+.info {
+  padding-left: 0;
+}
+.section-title {
+  margin-bottom: 20px;
+}
+.info li a {
+  text-decoration: none;
+}
+/* JOB info */
+.time-hilight {
+  display: inline;
+}
+.circle-icon {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: blue;
+  margin-top: 8px;
+}
+.d-flex {
+  gap: 15px;
+}
+.ic-job {
+  font-size: 40px;
+}
+/* Card hobby */
+.ic-hobby {
+  border: 1px solid #199cdb;
+  padding: 15px 20px;
+}
+/* Card ky nang */
+.container-skill {
+  display: inline-block;
+  height: 4px;
+  margin-right: 10px;
+  width: 45px;
+}
+/* certificate */
+.img-certificate {
+  height: 100px;
+  width: 200px;
+}
+.border-mobie {
+  display: block;
+}
+/* Project */
+#project > .container:nth-child(2) {
+  column-gap: 20px;
+}
+.img-project {
+  height: auto;
+  width: 100%;
+}
+tr {
+  vertical-align: baseline;
+}
+td {
+  padding: 5px 10px;
+}
+.time-hilight {
+  padding: 1px 8px;
+  background-color: #199cdb;
+  border-radius: 10px;
+}
+/* Footer */
+#footer > .container ul li {
+  font-size: 18px;
+  margin: 0 20px;
+  display: inline-block;
+}
+#footer > .container ul {
+  text-align: center;
+  list-style-type: none;
+}
+.icon-footer {
+  color: #199cdb;
+  font-size: 25px;
+  margin-right: 6px;
+}
+#footer > .container ul li a {
+  text-decoration: none;
+}
+.footer-contact {
+  color: #343a40;
+}

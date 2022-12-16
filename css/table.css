@@ -1,0 +1,47 @@
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  /* Navbar */
+  .avata {
+    display: none;
+    border-style: none;
+  }
+  nav ul li:nth-child(3) {
+    padding: 0 20px;
+  }
+  /* certificate */
+  .img-certificate {
+    width: 280px;
+    height: auto;
+  }
+  .certificate-content-table {
+    margin-top: 20px;
+    width: 100%;
+  }
+  /* Project */
+  .gird-project-table {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+  }
+  .container-time-hilight {
+    grid-row: 1 / -3;
+  }
+
+  /* DIGITAL CV TABLE */
+
+  /* untimate */
+  section > .container:nth-child(1) {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .gird-lg-content {
+    display: block;
+  }
+  #team {
+    margin-top: 15px;
+  }
+  #primary {
+    margin-top: 15px;
+  }
+  #scopes {
+    margin-top: 15px;
+  }
+}

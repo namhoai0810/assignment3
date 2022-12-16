@@ -1,0 +1,59 @@
+/* DIGITAL CV */
+
+/* untimate */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body > .container {
+  background-color: #4c6ef5;
+}
+.gird-lg-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+}
+.container > h2 {
+  padding: 10px;
+}
+
+/* GOALS */
+.icon-digitalcv {
+  height: 25px;
+  width: auto;
+  margin-left: 15px;
+  padding: 0;
+  justify-content: center;
+}
+section > .container {
+  background-color: #99e9f2;
+  height: 100%;
+}
+/* scopes */
+#scopes {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+/* Timeline */
+.border-number {
+  padding: 6px 10px;
+  background-color: #868e96;
+  color: #e9ecef;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.number {
+  font-size: 20px;
+}
+#timeline {
+  grid-column: 3 / 4;
+  grid-row: 1 / -1;
+  background-color: #99e9f2;
+}
+.border-bottom-timeline {
+  border-bottom: dotted 1px #228be6;
+}
